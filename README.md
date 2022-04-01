@@ -4,7 +4,7 @@
 
 Submitted by: Shriya Vaagdevi Chikati
 
-Time spent: 6 hours spent in total
+Time spent: 4 hours spent in total
 
 Link to project: https://glitch.com/edit/#!/accessible-simplistic-singer?path=index.html%3A30%3A30
 
