@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Displaying the number of mistakes the player can make in the form of emojis
+- [x] Displaying the number of chances the player has in the form of emojis
 
 ## Video Walkthrough (GIF)
 
