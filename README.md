@@ -72,7 +72,7 @@ I faced some small barriers while trying to get the project to work the way I in
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright SHRIYA VAAGDEVI CHIKATI
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
