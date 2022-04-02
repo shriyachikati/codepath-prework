@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <title>Light and Sound Memory Game</title>
+  </head>
+
+  <body>
+    <!-- this is the start of content -->
+    <h1 align="center">Light and Sound Memory Game</h1>
+
+    <p align="center">
+      Hello and welcome to the game! Please repeat the pattern shown by pressing
+      the buttons. You have three chances to get it right. Good luck!
+    </p>
+
+    <button id="startBtn" onclick="startGame()">Start</button>
+
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+
+    <p0>Chances remaining:</p0>
+
+    <p3 id="p3"> 😶 </p3>
+    
+    <p2 id="p2"> 😐 </p2>
+    
+    <p1 id="p1"> 🙂 </p1>
+
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone()"
+      ></button>
+      <button
+        id="button6"
+        onclick="guess(6)"
+        onmousedown="startTone(6)"
+        onmouseup="stopTone()"
+      ></button>
+    </div>
+  </body>
+</html>
