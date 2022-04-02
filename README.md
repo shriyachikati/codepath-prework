@@ -38,7 +38,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
+If you recorded multiple GIFs for all the implemented features, you can add them here:   
 ![3chances](https://user-images.githubusercontent.com/95562069/161200488-fb8b236e-8952-46b8-a087-032304746d3e.gif)
 ![reducedTime](https://user-images.githubusercontent.com/95562069/161200713-2d3f9d5a-7b9e-4301-8245-7d683e97fd1c.gif)
 ![differentPattern](https://user-images.githubusercontent.com/95562069/161202194-cfae3706-1566-43b9-8ae0-1c7a8bdfa410.gif)
