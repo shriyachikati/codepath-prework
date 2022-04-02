@@ -1,0 +1,101 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: aliceblue;
+  color: cornflowerblue;
+}
+
+/* using a different font for the heading */
+h1 {
+  font-family: sans-serif;
+}
+
+/* adjusting the size of the start and stop buttons */
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* adjusting the size of the game buttons */
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+/* hiding the stop button */
+.hidden {
+  display: none;
+}
+
+
+/* changing the colors of the game buttons */
+#button1 {
+  background: lightgreen;
+}
+
+#button2 {
+  background: lightblue;
+}
+
+#button3 {
+  background: pink;
+}
+
+#button4 {
+  background: plum;
+}
+
+#button5 {
+  background: gainsboro;
+}
+
+#button6 {
+  background: lightyellow;
+}
+
+/* changing the color of the buttons when pressed */
+#button1:active, #button1.lit {
+    background:green;
+}
+
+#button2:active, #button2.lit{
+    background:blue;
+}
+
+#button3:active, #button3.lit {
+    background:hotpink;
+}
+
+#button4:active, #button4.lit {
+    background:purple;
+}
+
+#button5:active, #button5.lit {
+    background:grey;
+}
+
+#button6:active, #button6.lit {
+    background:yellow;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
